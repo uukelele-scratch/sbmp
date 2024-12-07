@@ -21,3 +21,19 @@ Now, double-clicking any .sbmp file will open with the viewer.py file.
 Converting files is quite easy. In the directory of the repository, open a terminal window.
 
 Type `python converter.py <filename.jpg/png> <size [preferably something like 240 or 360]> <output filename .sbmp>`
+
+You can then double-click them to view (if you have done the previous steps)
+
+## Viewing in Scratch
+
+The entire purpose of .sbmp files is for them to be able to be viewed on Scratch. So, here's the link to the .sbmp viewer.
+
+https://scratch.mit.edu/projects/1107520357/
+
+Inside the project, show the .sbmp upload list, right-click it and click `import`. Then, change to `all files` in File Explorer, and select the output.sbmp file from your folder. Finally, run the project with a green flag or click the custom block. This will render the sbmp file to your screen.
+
+## What's the point?
+
+You may have realised Scratch already offers this functionality, to be able to add images to your project. That's why this has a reason: ScratchAttach Cloud Requests.
+
+ScratchAttach (by @TimMcCool) has a feature named Cloud Requests that allow data to be transferred between the Scratch project and a python backend. This means that we can use it to transfer the .sbmp file, after converting it, through the project and rendering it.
